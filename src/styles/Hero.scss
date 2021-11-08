@@ -1,0 +1,11 @@
+@import '../styles/core/variables';
+.hero {
+  font-family: $fontFamilyPrime;
+  height: 100vh;
+  background-color: rgb(233, 217, 240);
+
+  &__content {
+    position: absolute;
+    top: 15%;
+  }
+}

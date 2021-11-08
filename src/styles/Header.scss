@@ -1,0 +1,21 @@
+@import '../styles/core/variables';
+.header {
+  font-family: $fontFamilyPrime;
+  font-weight: 600;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(148, 101, 144);
+  z-index: 100;
+  &__links {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+
+    margin: 1em;
+  }
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 1em 0 1em;
+  }
+}

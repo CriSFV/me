@@ -1,26 +1,23 @@
 import '../styles/Hero.scss';
+import photo from '../images/pixlr-bg-result.png';
 const Hero = () => {
   return (
     <section className='hero'>
       <div className='hero__content'>
-        <h1 id='about_me' className='hero_title'>
-          ¡¡Hola!! Soy Cris F. Valverde
+        <div className='hero__content__photo'>
+          <img className='hero__photo' src={photo} alt='this is me' />
+        </div>
+        <h1 id='about_me' className='hero__title'>
+          ¡¡Hola Mundo!!{' '}
         </h1>
-        <h2 className='hero__subtitle'>Front-End Developer</h2>
+        <h2>Soy Cris F. Valverde</h2>
+
+        <h3 className='hero__subtitle'>Jr. Front-End Developer</h3>
         <article className='hero__info'>
           <p>
-            Apasionada de la vida y de la gente, sabiendo ver lo positivo que
-            aporta cada uno. Muchos años gestionando grupos me han ayudado a
-            trabajar mejor en equipo y a contribuir en el desarrollo de las
-            personas.
-          </p>
-        </article>
-        <article>
-          <p>
-            Positiva, empática, con buena tolerancia al estrés y adaptabilidad a
-            los cambios. Me gusta formarme de manera continua y tras muchos años
-            en el mundo de la atención al cliente he decidido reinventarme en el
-            mundo como desarrolladora front-end.
+            Apasionada de la vida y de la gente. Muchos años gestionando grupos
+            me han ayudado a trabajar mejor en equipo contribuyendo en el
+            desarrollo de las personas.
           </p>
         </article>
       </div>

@@ -4,7 +4,7 @@
   font-weight: 600;
   position: fixed;
   width: 100%;
-  background-color: $primeColor;
+  background-color: rgb(148, 101, 144);
   z-index: 100;
   &__links {
     display: flex;
@@ -17,5 +17,8 @@
     display: inline-block;
     text-decoration: none;
     margin: 0 1em 0 1em;
+    &__home {
+      margin-top: 5px;
+    }
   }
 }

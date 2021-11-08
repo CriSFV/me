@@ -2,7 +2,7 @@ import '../styles/Hero.scss';
 import photo from '../images/pixlr-bg-result.png';
 const Hero = () => {
   return (
-    <section className='hero' id='about_me'>
+    <section className='hero' id='home'>
       <div className='hero__content'>
         <div className='hero__content__photo'>
           <img className='hero__photo' src={photo} alt='this is me' />

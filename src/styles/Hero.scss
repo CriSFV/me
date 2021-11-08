@@ -1,7 +1,7 @@
 @import '../styles/core/variables';
 .hero {
   font-family: $fontFamilyPrime;
-  height: 100vh;
+  height: 75%;
   background-color: rgb(233, 217, 240);
 
   &__content {
@@ -15,7 +15,8 @@
     margin-top: 30px;
     width: 8em;
     border: 2px solid $primeColor;
-    border-radius: 15px;
+    border-radius: 15%;
+    background-color: rgb(168, 142, 179);
   }
   &__title {
     margin: 3px;

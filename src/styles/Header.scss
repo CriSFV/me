@@ -8,9 +8,8 @@
   z-index: 100;
   &__links {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     list-style-type: none;
-
     margin: 1em;
   }
   &__link {

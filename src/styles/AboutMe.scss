@@ -1,0 +1,17 @@
+@import '../styles/core/variables';
+.aboutMe {
+  font-family: $fontFamilyPrime;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+}
+.skill__list {
+  list-style-type: none;
+  &__item {
+    display: inline-block;
+    margin: 3px;
+    padding: 5px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+  }
+}

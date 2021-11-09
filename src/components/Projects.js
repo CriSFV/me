@@ -1,14 +1,14 @@
 import '../styles/Projects.scss';
 const Projects = () => {
   return (
-    <section className='projects'>
+    <section className='projects' id='projects'>
       <h2>Mis proyectos</h2>
-      <ul>
-        <li>Maquetación de una web</li>
-        <li>Adivina el número</li>
-        <li>Buscador de series</li>
-        <li>Mis clubs favoritos</li>
-        <li>Buscador de personajes</li>
+      <ul className='projects__list'>
+        <li className='projects__list__item'>Maquetación de una web</li>
+        <li className='projects__list__item'>Adivina el número</li>
+        <li className='projects__list__item'>Buscador de series</li>
+        <li className='projects__list__item'>Mis clubs favoritos</li>
+        <li className='projects__list__item'>Buscador de personajes</li>
       </ul>
     </section>
   );

@@ -4,7 +4,8 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr;
-  margin: 12px;
+  padding: 12px;
+  background-color: $primeColorAboutMe;
   &__description {
     text-align: justify;
     margin: 10px;
@@ -16,7 +17,9 @@
     display: inline-block;
     margin: 3px;
     padding: 5px;
-    background-color: rgb(233, 200, 240);
+    background-color: rgb(223, 200, 240);
     border-radius: 10px;
+    border: 1px solid purple;
+    box-shadow: 2px 2px purple;
   }
 }

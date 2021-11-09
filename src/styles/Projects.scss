@@ -1,3 +1,12 @@
+@import '../styles/core/variables';
+
 .projects {
-  margin: 12px;
+  font-family: $fontFamilyPrime;
+  padding: 12px;
+  background-color: $primeColorProyects;
+  &__list {
+    &__item {
+      list-style-type: none;
+    }
+  }
 }

@@ -12,7 +12,8 @@ const AboutMe = () => {
           gestionando equipos en diferentes campañas y a diferentes niveles.
         </p>
         <p className='aboutMe__description'>
-          Tras unos cuantos años allí. me dí cuenta de que yo quería cambiar
+          Después de unos cuantos años allí. me dí cuenta de que yo quería
+          cambiar
         </p>
         <p className='aboutMe__description'>
           Siempre me había llamado la atención el tema de la programación aunque

@@ -5,7 +5,9 @@ const Footer = () => {
       <ul className='footer__list'>
         También me puedes encontrar en:
         <li className='footer__list__item'>
-          <i class='fab fa-github'></i>
+          <a href='https://github.com/CriSFV' target='_blank' rel='noreferrer'>
+            <i class='fab fa-github' title='Go to my Github'></i>
+          </a>
         </li>
         <li className='footer__list__item'>
           <i class='fab fa-linkedin-in'></i>

@@ -4,6 +4,11 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr;
+  margin: 12px;
+  &__description {
+    text-align: justify;
+    margin: 10px;
+  }
 }
 .skill__list {
   list-style-type: none;

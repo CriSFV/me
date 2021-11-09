@@ -1,0 +1,20 @@
+@import '../styles/core/variables';
+.footer {
+  font-family: $fontFamilyPrime;
+  background-color: $primeColor;
+  font-size: 12px;
+  &__list {
+    &__item {
+      list-style-type: none;
+      font-size: 18px;
+      border: 2px solid $primeColorHero;
+      display: inline-block;
+      margin: 4px;
+      //   padding: 2px;
+      width: 25px;
+      height: 25px;
+      text-align: center;
+      line-height: 25px;
+    }
+  }
+}

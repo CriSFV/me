@@ -2,8 +2,7 @@
 .hero {
   font-family: $fontFamilyPrime;
   height: 75%;
-  background-color: rgb(233, 217, 240);
-
+  background-color: $primeColorHero;
   &__content {
     display: flex;
     flex-direction: column;

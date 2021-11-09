@@ -23,7 +23,7 @@ const AboutMe = () => {
         </p>
       </article>
       <article>
-        <h2>Mis skills</h2>
+        <h2>Habilidades</h2>
         <ul className='skill__list'>
           <li className='skill__list__item'>HTML5</li>
           <li className='skill__list__item'>SASS</li>

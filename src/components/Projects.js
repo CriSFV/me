@@ -1,7 +1,7 @@
 import '../styles/Projects.scss';
 const Projects = () => {
   return (
-    <section>
+    <section className='projects'>
       <h2>Mis proyectos</h2>
       <ul>
         <li>Maquetación de una web</li>

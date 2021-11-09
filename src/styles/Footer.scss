@@ -2,6 +2,7 @@
 .footer {
   font-family: $fontFamilyPrime;
   background-color: $primeColor;
+  //  color: $primeColorHero;
   font-size: 12px;
   &__list {
     &__item {
@@ -10,7 +11,7 @@
       border: 2px solid $primeColorHero;
       display: inline-block;
       margin: 4px;
-      //   padding: 2px;
+      padding: 1px;
       width: 25px;
       height: 25px;
       text-align: center;

@@ -22,7 +22,7 @@ const AboutMe = () => {
           Jr Front-End Dev encontrando su sitio en el mundo tech.
         </p>
       </article>
-      <article>
+      <article className='skill'>
         <h2>Habilidades</h2>
         <ul className='skill__list'>
           <li className='skill__list__item'>HTML5</li>

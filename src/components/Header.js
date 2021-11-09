@@ -1,33 +1,11 @@
 import '../styles/Header.scss';
+import MenuLinks from './MenuLinks';
+
 const Header = () => {
   return (
     <header className='header'>
-      <div className='header__content'>
-        <nav>
-          <ul className='header__links'>
-            <li>
-              <a className='header__link__home' href='./index.html#home'>
-                <i class='fas fa-home'></i>
-              </a>
-            </li>
-            <li>
-              <a className='header__link' href='./index.html#about_me'>
-                Quien soy
-              </a>
-            </li>
-            <li>
-              <a className='header__link' href='./index.html#projects'>
-                Proyectos
-              </a>
-            </li>
-            <li>
-              <a className='header__link' href='./index.html#contact'>
-                Contacto
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <div className='header__content'></div>
+      <MenuLinks />
     </header>
   );
 };

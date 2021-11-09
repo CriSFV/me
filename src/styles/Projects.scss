@@ -4,13 +4,30 @@
   font-family: $fontFamilyPrime;
   padding: 12px;
   background-color: $primeColorProyects;
+  text-align: center;
+  padding: 1em;
+  &__title {
+    margin-bottom: 1em;
+  }
   &__list {
     &__item {
       list-style-type: none;
+      margin: 2em;
+    }
+    &__title {
+      width: 15rem;
+      margin: auto;
+
+      display: flex;
+      justify-content: space-around;
     }
     &__img {
       width: 15rem;
       height: 15rem;
+    }
+    &__icon {
+      display: inline-block;
+      margin: 2px;
     }
   }
 }

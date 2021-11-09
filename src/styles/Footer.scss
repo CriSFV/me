@@ -2,8 +2,9 @@
 .footer {
   font-family: $fontFamilyPrime;
   background-color: $primeColor;
-  //  color: $primeColorHero;
   font-size: 12px;
+  display: flex;
+  justify-content: space-around;
   &__list {
     &__item {
       list-style-type: none;
@@ -13,9 +14,11 @@
       margin: 4px;
       padding: 1px;
       width: 25px;
-      height: 25px;
       text-align: center;
       line-height: 25px;
     }
   }
+}
+.copy {
+  transform: translateY(10px);
 }

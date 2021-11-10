@@ -2,6 +2,7 @@ import project1 from '../images/project1.png';
 import project2 from '../images/project2.png';
 import project3 from '../images/project3.png';
 import project4 from '../images/project4.png';
+import project5 from '../images/project5.png';
 
 export const data = [
   {
@@ -27,5 +28,11 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/Maquetacion-de-una-web',
     gitHubPages: 'https://crisfv.github.io/Maquetacion-de-una-web/',
     img: project1,
+  },
+  {
+    title: 'Juego del ahorcado',
+    gitHub: 'https://github.com/CriSFV/Hangman-game',
+    gitHubPages: 'https://crisfv.github.io/Hangman-game/',
+    img: project5,
   },
 ];

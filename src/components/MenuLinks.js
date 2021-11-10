@@ -4,7 +4,7 @@ const MenuLinks = () => {
       <ul className='header__links'>
         <li>
           <a className='header__link__home' href='./index.html#home'>
-            <i class='fas fa-home'></i>
+            <i className='fas fa-home'></i>
           </a>
         </li>
         <li>
@@ -17,11 +17,11 @@ const MenuLinks = () => {
             Proyectos
           </a>
         </li>
-        <li>
+        {/* <li>
           <a className='header__link' href='./index.html#contact'>
             Contacto
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

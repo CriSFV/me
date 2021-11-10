@@ -1,11 +1,11 @@
 import '../styles/Footer.scss';
 const Footer = () => {
   return (
-    <footer className='footer'>
+    <footer className='footer' id='contact'>
       <ul className='footer__list'>
         <li className='footer__list__item'>
           <a href='https://github.com/CriSFV' target='_blank' rel='noreferrer'>
-            <i class='fab fa-github' title='Go to my Github'></i>
+            <i className='fab fa-github' title='Go to my Github'></i>
           </a>
         </li>
         <li className='footer__list__item'>
@@ -14,7 +14,7 @@ const Footer = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <i class='fab fa-linkedin-in' title='Go to my LinkedIn'></i>{' '}
+            <i className='fab fa-linkedin-in' title='Go to my LinkedIn'></i>{' '}
           </a>
         </li>
         <li className='footer__list__item'>
@@ -23,7 +23,7 @@ const Footer = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <i class='fab fa-twitter' title='Go to my twitter'></i>{' '}
+            <i className='fab fa-twitter' title='Go to my twitter'></i>{' '}
           </a>
         </li>
       </ul>

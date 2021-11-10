@@ -24,10 +24,18 @@
     &__img {
       width: 15rem;
       height: 15rem;
+      &:hover {
+        box-shadow: 3px 3px purple;
+        transform: scale(1.02);
+      }
     }
+
     &__icon {
       display: inline-block;
       margin: 2px;
+      &:hover {
+        transform: scale(1.7);
+      }
     }
   }
 }

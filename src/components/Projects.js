@@ -16,7 +16,7 @@ const Projects = () => {
           <h4 className='projects__list__title'>
             {project.title}
             <a href={project.gitHubPages} target='_blank' rel='noreferrer'>
-              <i class='fab fa-github'></i>
+              <i className='fab fa-github projects__list__icon'></i>
             </a>
           </h4>
         </li>

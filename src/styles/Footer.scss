@@ -16,6 +16,9 @@
       width: 25px;
       text-align: center;
       line-height: 25px;
+      &:hover {
+        transform: scale(1.4);
+      }
     }
   }
 }

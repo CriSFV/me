@@ -8,7 +8,7 @@
   background-color: rgb(148, 101, 144);
   z-index: 100;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 
   &__links {
     display: flex;
@@ -26,4 +26,7 @@
       font-size: 25px;
     }
   }
+}
+.fa-home {
+  transform: translateY(-5px);
 }

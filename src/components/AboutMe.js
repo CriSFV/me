@@ -2,8 +2,10 @@ import '../styles/AboutMe.scss';
 const AboutMe = () => {
   return (
     <section className='aboutMe'>
-      <h1 id='about_me'>Cónoceme</h1>
-      <article>
+      <h1 id='about_me' className='aboutMe__title'>
+        Cónoceme
+      </h1>
+      <article className='aboutMe__allDescription'>
         <h3>Esta soy yo</h3>
         <p className='aboutMe__description'>
           Estudié dos años de Educación Social hasta que, haciendo las prácticas

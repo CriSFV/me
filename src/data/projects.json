@@ -4,24 +4,24 @@
         "title":"Buscador de personajes",
         "gitHub":"https://crisfv.github.io/Rick-Morty-directory/",
         "gitHubPages":"https://crisfv.github.io/Rick-Morty-directory/#/",
-        "img":"/images/project4.png"
+        "img":"/project4.png"
     },
     {
         "title":"Buscador de series",
         "gitHub":"https://github.com/CriSFV/Series-Searcher",
-        "gitHubPages":"https://crisfv.github.io/series-searcher/",
-        "img":"/images/project3.png"
+        "gitHubPages":"https://crisfv.github.io/Series-Searcher/",
+        "img":"/project3.png"
     },
     {
         "title":"Adivina el número",
         "gitHub":"https://github.com/CriSFV/Guess-the-number",
-        "gitHubPages":"https://crisfv.github.io/Maquetacion-de-una-web/",
-        "img":"/images/project2.png"
+        "gitHubPages":"https://crisfv.github.io/Guess-the-number/",
+        "img":"/project2.png"
     },
     {
         "title":"Maquetación de una web",
         "gitHub":"https://github.com/CriSFV/Maquetacion-de-una-web",
         "gitHubPages":"https://crisfv.github.io/Maquetacion-de-una-web/",
-        "img":"/images/project1.png"
+        "img":"/project1.png"
     }
 ]

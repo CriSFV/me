@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Hero from './Hero';
 import Projects from './Projects';
+import { data } from '../data/DataProjects';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <Hero />
       <AboutMe />
-      <Projects />
+      <Projects data={data} />
       <Footer />
     </div>
   );

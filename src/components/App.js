@@ -5,6 +5,7 @@ import Header from './Header';
 import Hero from './Hero';
 import Projects from './Projects';
 import { data } from '../data/DataProjects';
+import ContactMe from './ContactMe';
 //import { Link, Route } from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
       <AboutMe />
       <Projects data={data} />
+      <ContactMe />
       <Footer />
     </div>
   );

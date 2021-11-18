@@ -1,0 +1,56 @@
+@import '../styles/core/variables';
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    font-family: $fontFamilyPrime;
+    margin: 15px;
+  }
+  &__list {
+    margin-bottom: 15px;
+    &__item {
+      list-style-type: none;
+      font-size: 18px;
+      border: 3px solid $primeColorHero;
+      display: inline-block;
+      margin: 4px;
+      padding: 1px;
+      width: 25px;
+      text-align: center;
+
+      line-height: 25px;
+      &:hover {
+        transform: scale(1.4);
+      }
+    }
+  }
+}
+
+.form {
+  background-color: $primeColorContactMe;
+  font-family: $fontFamilyPrime;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &__botton {
+    font-family: $fontFamilyPrime;
+    display: inline-block;
+    margin: 5px 5px 15px 5px;
+    padding: 5px;
+    background-color: rgb(223, 200, 240);
+    border-radius: 10px;
+    border: 1px solid purple;
+    box-shadow: 2px 2px purple;
+  }
+}
+.item {
+  margin: 0.5em;
+  font-family: $fontFamilyPrime;
+  width: auto;
+  height: auto;
+}

@@ -27,7 +27,8 @@ export const data = [
     gitHubPages: 'https://crisfv.github.io/Guess-the-number/',
     img: project2,
     tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT'],
-    comment: 'Aplicación creada con JavaScript ',
+    comment:
+      'Aplicación creada con JavaScript en la que tienes que tratar de adivinar el número aleatorio',
   },
   {
     title: 'Maquetación de una web',
@@ -35,7 +36,8 @@ export const data = [
     gitHubPages: 'https://crisfv.github.io/Maquetacion-de-una-web/',
     img: project1,
     tags: ['HTML5', 'CSS3', 'SASS', 'GULP'],
-    comment: 'Maquetación de una web responsive',
+    comment:
+      'Maquetación de una web responsive en equipo bajo medotodología agile',
   },
   // {
   //   title: 'Juego del ahorcado',

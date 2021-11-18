@@ -4,11 +4,9 @@
   font-weight: 600;
   position: fixed;
   width: 100%;
-
   background-color: rgb(148, 101, 144);
   z-index: 100;
   display: flex;
-  justify-content: flex-end;
 
   &__links {
     display: flex;
@@ -19,14 +17,43 @@
   &__link {
     display: inline-block;
     text-decoration: none;
-    margin: 0 1em 0 1em;
+    font-size: 18px;
+    color: $primeColorHero;
+    margin: 1rem 1rem;
+    transition: transform ease 1s;
+    &:hover {
+      transform: scale(1.1);
+      text-shadow: 0.3em 0.3em 1em $shadowColor;
+    }
     &__home {
-      margin: 5px;
+      margin: 1.5rem;
       margin-right: 25px;
-      font-size: 25px;
+      font-size: 35px;
+      color: $primeColorHero;
     }
   }
+  // &__ico {
+  //   width: 30px;
+  //   margin: 15px;
+  //   transition: transform ease 2s;
+  //   &:hover {
+  //     transform: scale(1.1);
+  //   }
+  // }
 }
 .fa-home {
-  transform: translateY(-5px);
+  width: 30px;
+  margin: 15px;
+  padding-top: 8px;
+  transition: transform ease 1s;
+  &:hover {
+    transform: scale(1.1);
+    text-shadow: 0.3em 0.3em 1em $shadowColor;
+  }
+}
+.hidden {
+  display: none;
+}
+.home {
+  margin-right: auto;
 }

@@ -20,7 +20,7 @@ const AboutMe = () => {
           Siempre me había llamado la atención el tema de la programación aunque
           pensaba que ya sería un poco tarde para dar un cambio en mi vida pero
           al final, tras dejarme aconsejar por gente que me conocía sobre mis
-          expectativas encontré Adalab y tras realizar su bootcamp, aquí estoy,
+          expectativas, encontré Adalab y tras realizar su bootcamp, aquí estoy,
           Jr Front-End Dev encontrando su sitio en el mundo tech.
         </p>
       </article>

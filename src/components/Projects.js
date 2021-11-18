@@ -1,10 +1,8 @@
 import '../styles/Projects.scss';
 
 const Projects = (props) => {
-  console.log(props);
   const printProjects = () =>
     props.data.map((project, index) => {
-      console.log(project.gitHubPages);
       return (
         <li className='projects__list__item' key={index} id={index}>
           <a
@@ -31,6 +29,8 @@ const Projects = (props) => {
               <i className='fab fa-github projects__list__icon'></i>
             </a>
           </h4>
+          <p>{project.comment}</p>
+          <small className='tags'>{project.tags}</small>
         </li>
       );
     });

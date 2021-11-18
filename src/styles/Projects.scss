@@ -6,6 +6,7 @@
   background-color: $primeColorProyects;
   text-align: center;
   padding: 1em;
+
   &__title {
     margin-bottom: 1em;
   }
@@ -45,4 +46,13 @@
       }
     }
   }
+}
+.tags {
+  display: inline-block;
+  margin: 3px;
+  padding: 5px;
+  background-color: rgb(223, 200, 240);
+  border-radius: 10px;
+  border: 1px solid purple;
+  box-shadow: 2px 2px purple;
 }

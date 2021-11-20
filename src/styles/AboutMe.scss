@@ -37,10 +37,10 @@
       display: inline-block;
       margin: 3px;
       padding: 5px;
-      background-color: rgb(223, 200, 240);
+      background-color: $primeColorHero;
       border-radius: 10px;
-      border: 1px solid purple;
-      box-shadow: 2px 2px purple;
+      border: 1px solid $shadowColor;
+      box-shadow: 2px 2px $shadowColor;
     }
   }
   @media (min-width: 768px) {

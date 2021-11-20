@@ -14,7 +14,7 @@ const Hero = () => {
         <article className='hero__info'>
           <p>
             Apasionada de la vida y de la gente. Muchos años gestionando grupos
-            me han ayudado a trabajar mejor en equipo contribuyendo en el
+            me han ayudado a trabajar mejor en equipo contribuyendo al
             desarrollo de las personas.
           </p>
         </article>

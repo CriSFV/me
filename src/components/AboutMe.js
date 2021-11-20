@@ -8,20 +8,20 @@ const AboutMe = () => {
       <article className='aboutMe__allDescription'>
         <h3>Esta soy yo</h3>
         <p className='aboutMe__description'>
-          Estudié dos años de Educación Social hasta que, haciendo las prácticas
-          de la carrera, vi que no era lo mio, así que me puse a trabajar en el
-          sector de atención al cliente, donde mayoritariamente he estado
-          gestionando equipos en diferentes campañas y a diferentes niveles.
+          Estudié Educación Social hasta que, haciendo las prácticas de la
+          carrera, vi que no era lo mio, así que me puse a trabajar en el sector
+          de atención al cliente, donde mayoritariamente he estado gestionando
+          equipos en diferentes campañas y a diferentes niveles.
         </p>
         <p className='aboutMe__description'>
-          Después de unos cuantos años allí, me dí cuenta de que quería cambiar
+          Después de unos estupendos años allí, me dí cuenta de que necesitaba
+          mejorar mi formación y ampliar horizontes.
         </p>
         <p className='aboutMe__description'>
-          Siempre me había llamado la atención el tema de la programación aunque
-          pensaba que ya sería un poco tarde para dar un cambio en mi vida pero
-          al final, tras dejarme aconsejar por gente que me conocía sobre mis
-          expectativas, encontré Adalab y tras realizar su bootcamp, aquí estoy,
-          Jr Front-End Dev encontrando su sitio en el mundo tech.
+          Siempre me había llamado la atención el tema de la programación y,
+          tras dejarme aconsejar por amigos que conocían mis expectativas y
+          capacidades, encontré Adalab y tras realizar su bootcamp, aquí estoy,
+          Desarrolladora Front-End Jr buscando mi sitio en el mundo tech.
         </p>
       </article>
       <article className='skill'>

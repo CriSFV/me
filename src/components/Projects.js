@@ -29,7 +29,7 @@ const Projects = (props) => {
               <i className='fab fa-github projects__list__icon'></i>
             </a>
           </h4>
-          <p>{project.comment}</p>
+          <p className='projects__list__comment'>{project.comment}</p>
           <small className='tags'>{project.tags}</small>
         </li>
       );

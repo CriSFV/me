@@ -16,11 +16,15 @@
       grid-template-columns: repeat(2, 1fr);
     }
     @media (min-width: 1200px) {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
     &__item {
+      border: 1px solid $shadowColor;
+      box-shadow: 2px 2px $shadowColor;
+      border-radius: 15px;
       list-style-type: none;
-      margin: 2em;
+      padding: 1em;
+      margin: 1em;
     }
     &__title {
       width: 15rem;
@@ -45,14 +49,19 @@
         transform: scale(1.7);
       }
     }
+    &__comment {
+      text-align: justify;
+      margin: auto;
+      width: 15rem;
+    }
   }
 }
 .tags {
   display: inline-block;
   margin: 3px;
   padding: 5px;
-  background-color: rgb(223, 200, 240);
+  background-color: $primeColorAboutMe;
   border-radius: 10px;
-  border: 1px solid purple;
-  box-shadow: 2px 2px purple;
+  border: 1px solid $shadowColor;
+  box-shadow: 2px 2px $shadowColor;
 }

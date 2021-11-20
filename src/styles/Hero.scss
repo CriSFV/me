@@ -1,4 +1,18 @@
 @import '../styles/core/variables';
+
+@keyframes intro {
+  from {
+    transform: scale(5) rotate(-150deg);
+    opacity: 0.2;
+    color: white;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .hero {
   font-family: $fontFamilyPrime;
   height: 75%;
@@ -19,6 +33,22 @@
   }
   &__title {
     margin: 3px;
+    font-size: $fontSizeTitles;
+    animation-duration: 3s;
+    animation-name: intro;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  }
+  &__subtitle {
+    font-family: $fontFamilySecond;
+    font-size: 20px;
+    @media (min-width: 768px) {
+      font-size: 30px;
+    }
+  }
+  &__subtitle2 {
+    font-size: 20px;
+    margin-top: 5px;
   }
   &__info {
     margin-top: 1em;

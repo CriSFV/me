@@ -9,7 +9,7 @@ const AboutMe = () => {
         <h3>Esta soy yo</h3>
         <p className='aboutMe__description'>
           Estudié Educación Social hasta que, haciendo las prácticas de la
-          carrera, vi que no era lo mio, así que me puse a trabajar en el sector
+          carrera, vi que no era lo mío, así que me puse a trabajar en el sector
           de atención al cliente, donde mayoritariamente he estado gestionando
           equipos en diferentes campañas y a diferentes niveles.
         </p>

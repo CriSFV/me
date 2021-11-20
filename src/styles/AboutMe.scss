@@ -7,6 +7,9 @@
   padding: 70px 12px;
   background-color: $primeColorAboutMe;
   text-align: center;
+  &__title {
+    font-size: $fontSizeTitles;
+  }
   @media (min-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr, 2fr;

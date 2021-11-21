@@ -11,7 +11,7 @@ const AboutMe = () => {
           Estudié Educación Social hasta que, haciendo las prácticas de la
           carrera, vi que no era lo mío, así que me puse a trabajar en el sector
           de atención al cliente, donde mayoritariamente he estado gestionando
-          equipos en diferentes campañas y a diferentes niveles.
+          equipos en diferentes campañas y a distintos niveles.
         </p>
         <p className='aboutMe__description'>
           Después de unos estupendos años allí, me dí cuenta de que necesitaba
@@ -20,7 +20,7 @@ const AboutMe = () => {
         <p className='aboutMe__description'>
           Siempre me había llamado la atención el tema de la programación y,
           tras dejarme aconsejar por amigos que conocían mis expectativas y
-          capacidades, encontré Adalab y tras realizar su bootcamp, aquí estoy,
+          capacidades, encontré Adalab, realicé su bootcamp y aquí estoy,
           Desarrolladora Front-End Jr buscando mi sitio en el mundo tech.
         </p>
       </article>

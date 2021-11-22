@@ -4,6 +4,7 @@ import project3 from '../images/project3.png';
 import project4 from '../images/project4.png';
 import project5 from '../images/project5.png';
 import project6 from '../images/project6.png';
+import project7 from '../images/project7.png';
 
 export const data = [
   {
@@ -57,5 +58,14 @@ export const data = [
     tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'JAVASCRIPT'],
     comment:
       'Aplicación responsive creada con JavaScript en la que puedes crear una tarjeta personalizada, creado en equipo bajo filosofía agile',
+  },
+  {
+    title: 'My favorites clubs',
+    gitHub: 'https://github.com/CriSFV/My-favorites-clubs',
+    gitHubPages: 'crisfv.github.io/my-favorites-clubs/',
+    img: project7,
+    tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'JAVASCRIPT', ' ', 'REACT'],
+    comment:
+      'Aplicación creada con React en la que añadir y modificar tu lista de clubs',
   },
 ];

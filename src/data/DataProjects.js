@@ -53,7 +53,7 @@ export const data = [
   {
     title: 'Awesome profile cards',
     gitHub: 'https://github.com/CriSFV/awesome-profile-cards',
-    gitHubPages: 'crisfv.github.io/awesome-profile-cards/',
+    gitHubPages: 'https://crisfv.github.io/awesome-profile-cards/',
     img: project6,
     tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'JAVASCRIPT'],
     comment:
@@ -62,7 +62,7 @@ export const data = [
   {
     title: 'My favorites clubs',
     gitHub: 'https://github.com/CriSFV/My-favorites-clubs',
-    gitHubPages: 'crisfv.github.io/my-favorites-clubs/',
+    gitHubPages: 'https://crisfv.github.io/My-favorites-clubs/',
     img: project7,
     tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'JAVASCRIPT', ' ', 'REACT'],
     comment:

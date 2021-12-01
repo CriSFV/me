@@ -1,6 +1,16 @@
 import '../styles/Projects.scss';
 
 const Projects = (props) => {
+  const printTags = (tags) => {
+    return tags.map((eachTag, i) => {
+      return (
+        <li className='tags' key={i}>
+          {eachTag}
+        </li>
+      );
+    });
+  };
+
   const printProjects = () =>
     props.data.map((project, index) => {
       return (
@@ -30,7 +40,7 @@ const Projects = (props) => {
             </a>
           </h4>
           <p className='projects__list__comment'>{project.comment}</p>
-          <small className='tags'>{project.tags}</small>
+          <ul>{printTags(project.tags)}</ul>
         </li>
       );
     });

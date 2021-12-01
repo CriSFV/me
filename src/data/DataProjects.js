@@ -12,7 +12,7 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/Rick-Morty-directory',
     gitHubPages: 'https://crisfv.github.io/Rick-Morty-directory/#/',
     img: project4,
-    tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'JAVASCRIPT', ' ', 'REACT'],
+    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
     comment: 'Web responsive creada con React con llamada a API externa',
   },
   {
@@ -20,7 +20,7 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/Series-Searcher',
     gitHubPages: 'https://crisfv.github.io/Series-Searcher/',
     img: project3,
-    tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'JAVASCRIPT'],
+    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT'],
     comment:
       'Aplicación creada con JavaScript con llamada a API externa donde puedes buscar tus series favoritas',
   },
@@ -29,7 +29,7 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/Guess-the-number',
     gitHubPages: 'https://crisfv.github.io/Guess-the-number/',
     img: project2,
-    tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'JAVASCRIPT'],
+    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT'],
     comment:
       'Aplicación creada con JavaScript en la que tienes que tratar de adivinar el número aleatorio',
   },
@@ -38,7 +38,7 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/Maquetacion-de-una-web',
     gitHubPages: 'https://crisfv.github.io/Maquetacion-de-una-web/',
     img: project1,
-    tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'GULP'],
+    tags: ['HTML5', 'CSS3', 'SASS', 'GULP'],
     comment: 'Maquetación de una web responsive en equipo bajo filosofía agile',
   },
   {
@@ -46,7 +46,7 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/Hangman-game',
     gitHubPages: 'https://crisfv.github.io/Hangman-game/',
     img: project5,
-    tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'JAVASCRIPT', ' ', 'REACT'],
+    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
     comment:
       'Aplicación creada con React y con petición a API de palabra aleatoria que tienes que tratar de adivinar con el conocido juego del ahorcado',
   },
@@ -55,7 +55,7 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/awesome-profile-cards',
     gitHubPages: 'https://crisfv.github.io/awesome-profile-cards/',
     img: project6,
-    tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'JAVASCRIPT'],
+    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT'],
     comment:
       'Aplicación responsive creada con JavaScript en la que puedes crear una tarjeta personalizada, creado en equipo bajo filosofía agile',
   },
@@ -64,7 +64,7 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/My-favorites-clubs',
     gitHubPages: 'https://crisfv.github.io/My-favorites-clubs/',
     img: project7,
-    tags: ['HTML5', ' ', 'CSS3', ' ', 'SASS', ' ', 'JAVASCRIPT', ' ', 'REACT'],
+    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
     comment:
       'Aplicación creada con React en la que añadir y modificar tu lista de clubs',
   },

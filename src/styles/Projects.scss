@@ -12,13 +12,16 @@
     font-size: $fontSizeTitles;
   }
   &__list {
-    @media (min-width: 768px) {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-    @media (min-width: 1200px) {
-      grid-template-columns: repeat(3, 1fr);
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // @media (min-width: 768px) {
+    //   display: grid;
+    //   grid-template-columns: repeat(2, 1fr);
+    // }
+    // @media (min-width: 1200px) {
+    //   grid-template-columns: repeat(3, 1fr);
+    // }
     &__item {
       border: 1px solid $shadowColor;
       box-shadow: 2px 2px $shadowColor;

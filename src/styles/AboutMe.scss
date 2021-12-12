@@ -60,7 +60,7 @@
   border: 1px solid $shadowColor;
   box-shadow: 2px 2px $shadowColor;
   @media (min-width: 768px) {
-    grid-column: 4/5;
+    grid-column: 3/6;
   }
   &__download {
     text-decoration: none;

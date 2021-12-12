@@ -1,10 +1,12 @@
 import '../styles/AboutMe.scss';
+import CvPdf from './Cv';
+
 const AboutMe = () => {
   return (
     <section className='aboutMe'>
-      <h1 id='about_me' className='aboutMe__title'>
+      <h2 id='about_me' className='aboutMe__title'>
         Cónoceme
-      </h1>
+      </h2>
       <article className='aboutMe__allDescription'>
         <h3>Esta soy yo</h3>
         <p className='aboutMe__description'>
@@ -25,7 +27,7 @@ const AboutMe = () => {
         </p>
       </article>
       <article className='skill'>
-        <h2>Habilidades</h2>
+        <h3>Habilidades</h3>
         <ul className='skill__list'>
           <li className='skill__list__item'>HTML5</li>
           <li className='skill__list__item'>SASS</li>
@@ -42,6 +44,7 @@ const AboutMe = () => {
           <li className='skill__list__item'>Terminal</li>
         </ul>
       </article>
+      <CvPdf />
     </section>
   );
 };

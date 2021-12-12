@@ -52,3 +52,17 @@
     padding: 30px 0px 70px 0px;
   }
 }
+.cv {
+  margin: 3px;
+  padding: 5px;
+  background-color: $primeColorHero;
+  border-radius: 10px;
+  border: 1px solid $shadowColor;
+  box-shadow: 2px 2px $shadowColor;
+  @media (min-width: 768px) {
+    grid-column: 4/5;
+  }
+  &__download {
+    text-decoration: none;
+  }
+}

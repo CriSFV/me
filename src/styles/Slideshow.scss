@@ -1,0 +1,30 @@
+.slideshow-container {
+  max-width: 100px;
+  position: relative;
+  //margin: auto;
+}
+// .mySlides {
+//     display: none;
+//   }
+
+.numbertext {
+  color: rgb(110, 11, 11);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.text {
+  font-size: 15px;
+  padding: 8px 12px;
+  //   position: absolute;
+  //   bottom: 0px;
+  width: 100%;
+}
+
+.img {
+  width: 15rem;
+  height: 15rem;
+  opacity: 0.7;
+}

@@ -8,6 +8,15 @@ const ContactMe = () => {
         <ul className='contact__list'>
           <li className='contact__list__item'>
             <a
+              href='mailto: crisfvalverde@gmail.com'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i class='far fa-envelope'></i>
+            </a>
+          </li>
+          <li className='contact__list__item'>
+            <a
               href='https://github.com/CriSFV'
               target='_blank'
               rel='noreferrer'
@@ -46,7 +55,7 @@ const ContactMe = () => {
               name='message'
               rows='8'
               cols='30'
-              placeholder='Escríbeme lo que quieras'
+              placeholder='Escríbeme, pero no te olvides de decirme quien eres 😉'
               className='item form__message'
               required
             ></textarea>

@@ -1,4 +1,5 @@
 import '../styles/Projects.scss';
+// import { Slideshow } from './Slideshow';
 
 const Projects = (props) => {
   const printTags = (tags) => {
@@ -46,10 +47,13 @@ const Projects = (props) => {
     });
 
   return (
-    <section className='projects' id='projects'>
-      <h2 className='projects__title'>Mis proyectos</h2>
-      <ul className='projects__list'>{printProjects()}</ul>
-    </section>
+    <>
+      <section className='projects' id='projects'>
+        <h2 className='projects__title'>Mis proyectos</h2>
+        {/* <Slideshow data={props.data} /> */}
+        <ul className='projects__list'>{printProjects()}</ul>
+      </section>
+    </>
   );
 };
 

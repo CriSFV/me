@@ -63,7 +63,7 @@ const ContactMe = () => {
           <input
             type='submit'
             className='form__botton'
-            value='Envíame un mensaje rápido'
+            value='Enviar mensaje rápido'
           />
         </form>
       </section>

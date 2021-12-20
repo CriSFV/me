@@ -13,7 +13,8 @@ export const data = [
     gitHubPages: 'https://crisfv.github.io/Rick-Morty-directory/#/',
     img: project4,
     tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
-    comment: 'Web responsive creada con React con llamada a API externa',
+    comment:
+      'SPA creada con React con llamada a API externa. Responsive Desing',
   },
   {
     title: 'Buscador de series',
@@ -66,6 +67,6 @@ export const data = [
     img: project7,
     tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
     comment:
-      'Aplicación creada con React en la que añadir y modificar tu lista de clubs',
+      'SPA creada con React en la que añadir y modificar tu lista de clubs',
   },
 ];

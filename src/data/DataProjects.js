@@ -44,8 +44,8 @@ export const data = [
   },
   {
     title: 'Juego del ahorcado',
-    gitHub: 'https://github.com/CriSFV/Hangman-game',
-    gitHubPages: 'https://crisfv.github.io/Hangman-game/',
+    gitHub: 'https://github.com/CriSFV/Hangmangame',
+    gitHubPages: 'https://crisfv.github.io/Hangmangame/',
     img: project5,
     tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
     comment:

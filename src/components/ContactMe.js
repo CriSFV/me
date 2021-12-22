@@ -12,7 +12,7 @@ const ContactMe = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <i class='far fa-envelope'></i>
+              <i className='far fa-envelope'></i>
             </a>
           </li>
           <li className='contact__list__item'>

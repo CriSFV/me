@@ -29,7 +29,8 @@
     width: 8em;
     border: 2px solid $primeColor;
     border-radius: 15%;
-    background-color: rgb(168, 142, 179);
+
+    background-color: $primeColor;
   }
   &__title {
     margin: 3px;

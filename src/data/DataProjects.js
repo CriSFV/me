@@ -47,16 +47,9 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/Hangmangame',
     gitHubPages: 'https://crisfv.github.io/Hangmangame/',
     img: project5,
-    tags: [
-      'HTML5',
-      'CSS3',
-      'SASS',
-      'JAVASCRIPT',
-      'REACT',
-      '#underconstruction',
-    ],
+    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
     comment:
-      'Aplicación creada con React y con petición a API de palabra aleatoria que tienes que tratar de adivinar con el conocido juego del ahorcado',
+      'Aplicación en construcción creada con React y con petición a API de palabra aleatoria que tienes que tratar de adivinar con el conocido juego del ahorcado',
   },
   {
     title: 'Awesome profile cards',

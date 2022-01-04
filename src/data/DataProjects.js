@@ -47,7 +47,14 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/Hangmangame',
     gitHubPages: 'https://crisfv.github.io/Hangmangame/',
     img: project5,
-    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
+    tags: [
+      'HTML5',
+      'CSS3',
+      'SASS',
+      'JAVASCRIPT',
+      'REACT',
+      '#underconstruction',
+    ],
     comment:
       'Aplicación creada con React y con petición a API de palabra aleatoria que tienes que tratar de adivinar con el conocido juego del ahorcado',
   },

@@ -42,15 +42,15 @@ export const data = [
     tags: ['HTML5', 'CSS3', 'SASS', 'GULP'],
     comment: 'Maquetación de una web responsive en equipo bajo filosofía agile',
   },
-  {
-    title: 'Juego del ahorcado',
-    gitHub: 'https://github.com/CriSFV/Hangmangame',
-    gitHubPages: 'https://crisfv.github.io/Hangmangame/',
-    img: project5,
-    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
-    comment:
-      'Aplicación en construcción creada con React y con petición a API de palabra aleatoria que tienes que tratar de adivinar con el conocido juego del ahorcado',
-  },
+  // {
+  //   title: 'Juego del ahorcado',
+  //   gitHub: 'https://github.com/CriSFV/Hangmangame',
+  //   gitHubPages: 'https://crisfv.github.io/Hangmangame/',
+  //   img: project5,
+  //   tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
+  //   comment:
+  //     'Aplicación en construcción creada con React y con petición a API de palabra aleatoria que tienes que tratar de adivinar con el conocido juego del ahorcado',
+  // },
   {
     title: 'Awesome profile cards',
     gitHub: 'https://github.com/CriSFV/awesome-profile-cards',

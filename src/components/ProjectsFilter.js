@@ -1,7 +1,6 @@
 export const ProjectsFilter = (props) => {
   const optionValue = (ev) => {
     props.handleSearch(ev.currentTarget.value);
-    console.log(ev.target.value);
   };
   return (
     <>

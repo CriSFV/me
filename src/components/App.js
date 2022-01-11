@@ -7,7 +7,6 @@ import Hero from './Hero';
 import Projects from './Projects';
 import { data } from '../data/DataProjects';
 import ContactMe from './ContactMe';
-//import { Link, Route } from 'react-router-dom';
 
 function App() {
   const [userSearch, setUserSearch] = useState('all');

@@ -11,9 +11,16 @@ import ContactMe from './ContactMe';
 
 function App() {
   const [userSearch, setUserSearch] = useState('all');
+
   const handleSearch = (value) => {
     setUserSearch(value);
   };
+
+  const filteredProyect = data.filter(
+    (eachProject) =>
+      eachProject.tags.includes(userSearch) || userSearch === 'all'
+  );
+
   return (
     <div className='page'>
       <Header />
@@ -21,7 +28,7 @@ function App() {
 
       <AboutMe />
       <Projects
-        data={data}
+        data={filteredProyect}
         userSearch={userSearch}
         handleSearch={handleSearch}
       />

@@ -8,6 +8,7 @@ import project7 from '../images/project7.png';
 
 export const data = [
   {
+    id: 0,
     title: 'Buscador de personajes',
     gitHub: 'https://github.com/CriSFV/Rick-Morty-directory',
     gitHubPages: 'https://crisfv.github.io/Rick-Morty-directory/#/',
@@ -17,6 +18,7 @@ export const data = [
       'SPA creada con React con llamada a API externa. Responsive Desing',
   },
   {
+    id: 1,
     title: 'Buscador de series',
     gitHub: 'https://github.com/CriSFV/Series-Searcher',
     gitHubPages: 'https://crisfv.github.io/Series-Searcher/',
@@ -26,6 +28,7 @@ export const data = [
       'Aplicación creada con JavaScript con llamada a API externa donde puedes buscar tus series favoritas',
   },
   {
+    id: 2,
     title: 'Adivina el número',
     gitHub: 'https://github.com/CriSFV/Guess-the-number',
     gitHubPages: 'https://crisfv.github.io/Guess-the-number/',
@@ -35,6 +38,7 @@ export const data = [
       'Aplicación creada con JavaScript en la que tienes que tratar de adivinar el número aleatorio',
   },
   {
+    id: 3,
     title: 'Maquetación de una web',
     gitHub: 'https://github.com/CriSFV/Maquetacion-de-una-web',
     gitHubPages: 'https://crisfv.github.io/Maquetacion-de-una-web/',
@@ -43,6 +47,7 @@ export const data = [
     comment: 'Maquetación de una web responsive en equipo bajo filosofía agile',
   },
   {
+    id: 4,
     title: 'Juego del ahorcado',
     gitHub: 'https://github.com/CriSFV/Hangmangame',
     gitHubPages: 'https://crisfv.github.io/Hangmangame/',
@@ -52,6 +57,7 @@ export const data = [
       'Aplicación aún en construcción creada con React y con petición a API de palabra aleatoria que tienes que tratar de adivinar con el conocido juego del ahorcado',
   },
   {
+    id: 5,
     title: 'Awesome profile cards',
     gitHub: 'https://github.com/CriSFV/awesome-profile-cards',
     gitHubPages: 'https://crisfv.github.io/awesome-profile-cards/',
@@ -61,6 +67,7 @@ export const data = [
       'Aplicación responsive creada con JavaScript en la que puedes crear una tarjeta personalizada, creado en equipo bajo filosofía agile',
   },
   {
+    id: 6,
     title: 'My favorites clubs',
     gitHub: 'https://github.com/CriSFV/My-favorites-clubs',
     gitHubPages: 'https://crisfv.github.io/My-favorites-clubs/',

@@ -19,9 +19,9 @@ export const ProjectsFilter = (props) => {
         <option value='HTML5'>HTML5</option>
         <option value='CSS3'>CSS3</option>
         <option value='SASS'>SASS</option>
-        <option value='JS'>JavaScript</option>
-        <option value='ReactJS'>ReactJS</option>
-        <option value='NodeJS'>NodeJS</option>
+        <option value='JAVASCRIPT'>JavaScript</option>
+        <option value='REACT'>ReactJS</option>
+        <option value='NODEJS'>NodeJS</option>
       </select>
     </>
   );

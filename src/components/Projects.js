@@ -1,5 +1,5 @@
 import '../styles/Projects.scss';
-// import { Slideshow } from './Slideshow';
+import { ProjectsFilter } from './ProjectsFilter';
 
 const Projects = (props) => {
   const printTags = (tags) => {
@@ -50,7 +50,10 @@ const Projects = (props) => {
     <>
       <section className='projects' id='projects'>
         <h2 className='projects__title'>Mis proyectos</h2>
-        {/* <Slideshow data={props.data} /> */}
+        <ProjectsFilter
+          userSearch={props.userSearch}
+          handleSearch={props.handleSearch}
+        />
         <ul className='projects__list'>{printProjects()}</ul>
       </section>
     </>

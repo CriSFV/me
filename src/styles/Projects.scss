@@ -73,3 +73,12 @@
   box-shadow: 2px 2px $shadowColor;
   font-size: 10px;
 }
+
+.filter__projects {
+  font-family: $fontFamilyPrime;
+  margin-right: 5px;
+
+  &__select:hover {
+    transform: scale(1.1);
+  }
+}

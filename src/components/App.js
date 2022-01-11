@@ -10,7 +10,7 @@ import ContactMe from './ContactMe';
 
 function App() {
   return (
-    <div>
+    <div className='page'>
       <Header />
       <Hero />
 

@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer className='footer' id='contact'>
       <small className='copy'>
-        Cris F. Valverde <i className='fas fa-heart'></i> 2021
+        Cris F. Valverde <i className='fas fa-heart'></i> 2022
       </small>
     </footer>
   );

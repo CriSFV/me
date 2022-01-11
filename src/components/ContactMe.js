@@ -55,7 +55,7 @@ const ContactMe = () => {
               name='message'
               rows='8'
               cols='30'
-              placeholder='Escríbeme, pero no te olvides de decirme quien eres 😉'
+              placeholder='Si tienes alguna sugerencia para mejorar el portfolio, me lo puedes decir por aquí, pero no te olvides de decirme quien eres, si quieres 😉'
               className='item form__message'
               required
             ></textarea>

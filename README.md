@@ -1,6 +1,6 @@
 # Welcome to my portfolio
 
- Este es mi portfolio... aún en construcción
+ Este es mi portfolio
 
 Aquí puedes saber más cosas sobre mí y ver algunos de los proyectos que he ido realizando
 

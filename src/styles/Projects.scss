@@ -6,9 +6,10 @@
 
   text-align: center;
   padding: 1em;
+  // padding-top: 100px;
 
   &__title {
-    margin: 1em;
+    margin: 100px 0px 20px 0px;
     font-size: $fontSizeTitles;
   }
   &__list {
@@ -76,9 +77,11 @@
 
 .filter__projects {
   font-family: $fontFamilyPrime;
-  margin-right: 5px;
 
-  &__select:hover {
+  &__select {
+    margin: 10px;
+  }
+  &:hover {
     transform: scale(1.1);
   }
 }

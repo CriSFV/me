@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import '../styles/Header.scss';
 const MenuLinks = () => {
   return (
@@ -10,19 +11,19 @@ const MenuLinks = () => {
       <nav>
         <ul className='header__links'>
           <li>
-            <a className='header__link' href='./index.html#about_me'>
+            <NavLink className='header__link' to='./about_me'>
               Quien soy
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a className='header__link' href='./index.html#projects'>
+            <NavLink className='header__link' to='./projects'>
               Proyectos
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a className='header__link' href='./index.html#contact'>
+            <NavLink className='header__link' to='./contact'>
               Contacto
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>

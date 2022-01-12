@@ -4,10 +4,11 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr, 1fr, 1fr;
-  padding: 70px 12px;
+  padding: 1em;
   text-align: center;
   &__title {
     font-size: $fontSizeTitles;
+    margin: 100px 0px 0px 0px;
   }
   @media (min-width: 768px) {
     grid-template-columns: repeat(7, 1fr);
@@ -18,7 +19,7 @@
   }
 
   &__allDescription {
-    padding: 30px 0px 70px 0px;
+    padding: 30px 0px 50px 0px;
     @media (min-width: 768px) {
       margin: 10px;
       grid-column: 1/5;
@@ -32,6 +33,7 @@
 .skill {
   text-align: center;
   margin-bottom: 40px;
+
   &__list {
     margin-top: 20px;
     list-style-type: none;
@@ -52,7 +54,7 @@
   }
 }
 .cv {
-  margin: 3px;
+  margin: 3px 3px 50px 3px;
   padding: 5px;
   background-color: $primeColorHero;
   border-radius: 10px;

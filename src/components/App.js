@@ -7,6 +7,7 @@ import Hero from './Hero';
 import Projects from './Projects';
 import { data } from '../data/DataProjects';
 import ContactMe from './ContactMe';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   const [userSearch, setUserSearch] = useState('all');
@@ -23,15 +24,22 @@ function App() {
   return (
     <div className='page'>
       <Header />
-      <Hero />
+      <Routes>
+        <Route path='/' element={<Hero />} />
+        <Route path='/about_me' element={<AboutMe />} />
+        <Route
+          path='/projects'
+          element={
+            <Projects
+              data={filteredProyect}
+              userSearch={userSearch}
+              handleSearch={handleSearch}
+            />
+          }
+        />
+        <Route path='/contact' element={<ContactMe />} />
+      </Routes>
 
-      <AboutMe />
-      <Projects
-        data={filteredProyect}
-        userSearch={userSearch}
-        handleSearch={handleSearch}
-      />
-      <ContactMe />
       <Footer />
     </div>
   );

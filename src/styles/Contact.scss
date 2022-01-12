@@ -5,9 +5,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1em;
   &__title {
     font-family: $fontFamilyPrime;
-    margin: 15px;
+    margin: 100px 0px 20px 0px;
     font-size: $fontSizeTitles;
   }
   &__list {

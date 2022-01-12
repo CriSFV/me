@@ -1,13 +1,13 @@
 @import '../styles/core/variables';
 .footer {
   font-family: $fontFamilyPrime;
-  // background-color: $primeColor;
   background-color: $shadowColor;
   font-size: 14px;
   padding-top: 15px;
-  // display: flex;
-  // justify-content: flex-end;
   height: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
 .copy {
   margin: 10px;

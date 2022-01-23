@@ -1,5 +1,5 @@
-import { NavLink } from 'react-router-dom';
 import '../styles/Header.scss';
+import MenuLinksNav from './MenuLinksNav';
 const MenuLinks = () => {
   return (
     <>
@@ -8,7 +8,8 @@ const MenuLinks = () => {
           <i className='fas fa-home'></i>
         </a>
       </nav>
-      <nav>
+      <MenuLinksNav />
+      {/* <nav>
         <ul className='header__links'>
           <li>
             <NavLink className='header__link' to='./about_me'>
@@ -26,7 +27,7 @@ const MenuLinks = () => {
             </NavLink>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </>
   );
 };

@@ -1,6 +1,7 @@
 @import '../styles/core/variables';
 .aboutMe {
   font-family: $fontFamilyPrime;
+  // height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr, 1fr, 1fr;

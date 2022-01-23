@@ -15,13 +15,16 @@
 
 .hero {
   font-family: $fontFamilyPrime;
-  height: 60%;
+  height: 100vh;
   &__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 70px 50px 80px 50px;
+    padding: 70px 25px 80px 25px;
+    @media (min-width: 768px) {
+      padding: 70px 150px 80px 150px;
+    }
   }
   &__photo {
     margin-top: 30px;

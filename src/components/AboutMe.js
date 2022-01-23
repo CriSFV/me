@@ -16,8 +16,8 @@ const AboutMe = () => {
           equipos en diferentes campañas y a distintos niveles.
         </p>
         <p className='aboutMe__description'>
-          Después de unos estupendos años allí, me dí cuenta de que necesitaba
-          mejorar mi formación y ampliar horizontes.
+          Después de unos años allí, me dí cuenta de que necesitaba mejorar mi
+          formación y ampliar horizontes.
         </p>
         <p className='aboutMe__description'>
           Siempre me había llamado la atención el tema de la programación y,

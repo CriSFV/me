@@ -1,5 +1,7 @@
 import '../styles/Hero.scss';
 import photo from '../images/pixlr-bg-result.png';
+import MenuLinksNav from './MenuLinksNav';
+
 const Hero = () => {
   return (
     <section className='hero' id='home'>
@@ -18,6 +20,7 @@ const Hero = () => {
             desarrollo de las personas.
           </p>
         </article>
+        <MenuLinksNav />
       </div>
     </section>
   );

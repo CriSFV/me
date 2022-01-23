@@ -4,13 +4,13 @@ const MenuLinksNav = () => {
     <nav>
       <ul className='header__links'>
         <li>
-          <NavLink className='header__link' to='./about_me'>
-            Yo
+          <NavLink className='header__link' to='./projects'>
+            Proyectos
           </NavLink>
         </li>
         <li>
-          <NavLink className='header__link' to='./projects'>
-            Proyectos
+          <NavLink className='header__link' to='./about_me'>
+            CV
           </NavLink>
         </li>
         <li>

@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <section className='aboutMe'>
       <h2 id='about_me' className='aboutMe__title'>
-        Cónoceme
+        Sobre mi
       </h2>
       <article className='aboutMe__allDescription'>
         <h3>Esta soy yo</h3>
@@ -26,6 +26,7 @@ const AboutMe = () => {
           Desarrolladora Front-End Jr buscando mi sitio en el mundo tech.
         </p>
       </article>
+
       <article className='skill'>
         <h3>Habilidades</h3>
         <ul className='skill__list'>

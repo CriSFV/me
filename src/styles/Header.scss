@@ -18,7 +18,7 @@
   &__link {
     background-color: $shadowColor;
     border-radius: 15px;
-    padding: 3px;
+    padding: 5px;
     display: inline-block;
     text-decoration: none;
     font-size: 18px;
@@ -34,9 +34,11 @@
     }
 
     &__home {
-      margin-right: 10px;
+      //  margin-right: 10px;
+
       font-size: 35px;
       color: $primeColorHero;
+
       @media (min-width: 768px) {
         margin-right: 25px;
       }
@@ -46,6 +48,7 @@
 .fa-home {
   width: 30px;
   margin: 15px;
+  margin-top: 25px;
   transition: transform ease 1s;
   &:hover {
     transform: scale(1.1);

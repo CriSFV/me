@@ -5,7 +5,7 @@ const MenuLinksNav = () => {
       <ul className='header__links'>
         <li>
           <NavLink className='header__link' to='./about_me'>
-            Quien soy
+            Yo
           </NavLink>
         </li>
         <li>

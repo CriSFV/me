@@ -41,8 +41,10 @@
     &__img {
       width: 15rem;
       height: 15rem;
+      border-radius: 35%;
+      border: blue 1px solid;
       &:hover {
-        box-shadow: 3px 3px purple;
+        box-shadow: 3px 3px $shadowColor;
         transform: scale(1.02);
       }
     }
@@ -68,7 +70,7 @@
   display: inline-block;
   margin: 3px;
   padding: 5px;
-  background-color: $primeColorAboutMe;
+  background-color: $primeColorHero;
   border-radius: 10px;
   border: 1px solid $shadowColor;
   box-shadow: 2px 2px $shadowColor;

@@ -1,6 +1,8 @@
 @import './core/reset.scss';
+@import '../styles/core/variables';
 
 .page {
-  // background-image: linear-gradient(#d4a9d4, #f4f5ec);
-  background-image: linear-gradient(#d4a9d4, #ffff);
+  // background-image: linear-gradient(#d4a9d4, #ffff);
+  background-image: linear-gradient($primeColorHero, #ffff);
+  //background-color: rgb(150, 160, 245);
 }

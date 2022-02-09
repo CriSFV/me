@@ -40,7 +40,7 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/Hangmangame',
     gitHubPages: 'https://crisfv.github.io/Hangmangame/',
     img: project5,
-    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT'],
+    tags: ['JAVASCRIPT', 'REACT'],
     comment:
       'Aplicación aún en construcción creada con React y con petición a API de palabra aleatoria que tienes que tratar de adivinar con el conocido juego del ahorcado.',
   },
@@ -59,7 +59,7 @@ export const data = [
     gitHub: 'https://github.com/CriSFV/project-promo-n-module-3-team-2',
     gitHubPages: 'https://sqlito-johnson.herokuapp.com/',
     img: project8,
-    tags: ['HTML5', 'CSS3', 'SASS', 'JAVASCRIPT', 'REACT', 'NODEJS'],
+    tags: ['REACT', 'NODEJS'],
     comment:
       'Migración a ReactJS de código JavaScript heredado, utilizando también NodeJs y SQLite para la creación de tarjetas de contacto compartibles. Proyecto creado en equipo bajo filosofía Agile',
   },

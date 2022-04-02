@@ -10,12 +10,17 @@ const MenuLinksNav = () => {
         </li>
         <li>
           <NavLink className='header__link' to='./about_me'>
-            CV
+            Conoceme
           </NavLink>
         </li>
         <li>
           <NavLink className='header__link' to='./contact'>
             Contacto
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className='header__link' to='./cv'>
+            CV
           </NavLink>
         </li>
       </ul>

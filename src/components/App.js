@@ -7,6 +7,7 @@ import Hero from './Hero';
 import Projects from './Projects';
 import { data } from '../data/DataProjects';
 import ContactMe from './ContactMe';
+import Pdf from './Pdf';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           }
         />
         <Route path='/contact' element={<ContactMe />} />
+        <Route path='/cv' element={<Pdf />} />
       </Routes>
 
       <Footer />

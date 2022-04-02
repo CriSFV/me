@@ -10,7 +10,7 @@
    
     display: grid;
     grid-template-columns: 2fr 3fr;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 6fr;
     }
 
     &__title{
@@ -19,11 +19,11 @@
         grid-column: span 2;
         text-align: center;
         &__name{
-           font-size: $fontSizeTitles; 
+           font-size: 50px; 
         }
         
     }
-    &__right{
+    &__left{
     background-color: $cvPdfBg;
     padding: 10px;
     }  
@@ -54,6 +54,7 @@
 .right{
     &__section{
         margin-left: 15px;
+        padding-left: 20px;
     }
 }
 .cv__icons{

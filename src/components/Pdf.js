@@ -9,7 +9,7 @@ const Pdf = () => {
           <h2>Front End Developer</h2>
         </div>
 
-        <section className='cv__right'>
+        <section className='cv__left'>
           <article className='cv__article'>
             <h5 className='right__title'>OBJETIVO PROFESIONAL</h5>
             <p>

@@ -1,6 +1,7 @@
 import '../styles/Pdf.scss';
 import { PDFDownloadLink } from '@react-pdf/renderer';
 import  cv  from '../data/cv.pdf';
+import CvPdf from './Cv';
 
 const Pdf = () => {
   return (
@@ -9,11 +10,12 @@ const Pdf = () => {
         <div className='cv__title'>
           <h1 className='cv__title__name'>Cristina Fernández Valverde</h1>
           <h2>Front End Developer</h2>
-          <PDFDownloadLink document={cv} fileName='cv.pdf'>
+          {/* <PDFDownloadLink document={cv} fileName='cv.pdf'>
             <button className='download-button'>
               <i className='fas fa-download'></i>
             </button>
-          </PDFDownloadLink>
+          </PDFDownloadLink> */}
+           <CvPdf />
         </div>
 
         <section className='cv__left'>

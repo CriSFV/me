@@ -36,6 +36,10 @@
     border-radius: 15%;
 
     background-color: $primeColor;
+
+    @media (max-width: 462px) {
+      margin-top: 150px;
+    }
   }
 
   &__title {

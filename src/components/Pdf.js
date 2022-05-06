@@ -1,6 +1,6 @@
 import '../styles/Pdf.scss';
-import { PDFDownloadLink } from '@react-pdf/renderer';
-import  cv  from '../data/cv.pdf';
+// import { PDFDownloadLink } from '@react-pdf/renderer';
+// import  cv  from '../data/cv.pdf';
 import CvPdf from './Cv';
 
 const Pdf = () => {

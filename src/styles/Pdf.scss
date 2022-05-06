@@ -6,11 +6,11 @@
 .cv{
 
     &__container{
-    padding: 80px 10px 30px 10px;
+    padding: 80px 10px 40px 10px;
    
     display: grid;
     grid-template-columns: 2fr 3fr;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr 5fr;
     }
 
     &__title{
@@ -69,4 +69,8 @@ margin-top: 50px;
 }
 .list-item{
     list-style: none;
+}
+
+.download-button{
+    width: 50px;
 }

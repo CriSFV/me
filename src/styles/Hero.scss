@@ -16,16 +16,19 @@
 .hero {
   font-family: $fontFamilyPrime;
   height: 100vh;
+
   &__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 80px 25px 80px 25px;
+
     @media (min-width: 768px) {
       padding: 70px 150px 80px 150px;
     }
   }
+
   &__photo {
     margin-top: 30px;
     width: 8em;
@@ -33,26 +36,38 @@
     border-radius: 15%;
 
     background-color: $primeColor;
+
+    @media (max-width: 462px) {
+      margin-top: 150px;
+    }
   }
+
   &__title {
-    margin: 3px;
-    font-size: $fontSizeTitles;
-    animation-duration: 3s;
-    animation-name: intro;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
+    font-size: 25px;
+    //   margin: 3px;
+    //   font-size: $fontSizeTitles;
+    //   animation-duration: 3s;
+    //   animation-name: intro;
+    //   animation-iteration-count: 1;
+    //   animation-timing-function: linear;
   }
+
+
+
   &__subtitle {
     font-family: $fontFamilySecond;
-    font-size: 20px;
+    font-size: 35px;
+
     @media (min-width: 768px) {
       font-size: 30px;
     }
   }
+
   &__subtitle2 {
     font-size: 20px;
     margin-top: 5px;
   }
+
   &__info {
     margin-top: 1em;
     text-align: justify;

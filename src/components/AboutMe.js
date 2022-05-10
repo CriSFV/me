@@ -33,10 +33,12 @@ const AboutMe = () => {
           <li className='skill__list__item'>HTML5</li>
           <li className='skill__list__item'>SASS</li>
           <li className='skill__list__item'>CSS3</li>
+          <li className='skill__list__item'>Bootstrap</li>
           <li className='skill__list__item'>JavaScript</li>
           <li className='skill__list__item'>React</li>
+          <li className='skill__list__item'>VueJS</li>
           <li className='skill__list__item'>NodeJs</li>
-          <li className='skill__list__item'>Express</li>
+          {/* <li className='skill__list__item'>Express</li> */}
           <li className='skill__list__item'>SQLite</li>
           <li className='skill__list__item'>Git</li>
           <li className='skill__list__item'>GitHub</li>

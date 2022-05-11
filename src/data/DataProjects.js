@@ -6,6 +6,7 @@ import project5 from '../images/project5.png';
 import project6 from '../images/project6.png';
 import project7 from '../images/project7.png';
 import project8 from '../images/project8.jpg';
+import project9 from '../images/project9.jpg';
 
 export const data = [
   {
@@ -81,5 +82,13 @@ export const data = [
     img: project1,
     tags: ['HTML5', 'CSS3', 'SASS', 'GULP'],
     comment: 'Maquetación de una web responsive en equipo bajo filosofía agile',
+  },
+  {
+    title: 'Guess the pokemon',
+    gitHub: 'https://github.com/CriSFV/Poke-game',
+    gitHubPages: 'https://vue-pok.netlify.app/',
+    img: project9,
+    tags: ['HTML5', 'CSS3', 'VUEJS'],
+    comment: 'Proyecto creado como ejercicio de aprendizaje con VUE',
   },
 ];

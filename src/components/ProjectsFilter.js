@@ -20,6 +20,7 @@ export const ProjectsFilter = (props) => {
           <option value='JAVASCRIPT'>JavaScript</option>
           <option value='REACT'>ReactJS</option>
           <option value='NODEJS'>NodeJS</option>
+          <option value='VUEJS'>VueJS</option>
         </select>
       </label>
     </>

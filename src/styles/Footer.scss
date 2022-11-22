@@ -1,7 +1,9 @@
 @import '../styles/core/variables';
+
 .footer {
   font-family: $fontFamilyPrime;
-  background-image: linear-gradient(#273bec, rgb(58, 58, 52));
+  // background-image: linear-gradient(#273bec, rgb(58, 58, 52));
+  background-color: #a9cedf;
   font-size: 14px;
   padding-top: 15px;
   height: 30px;
@@ -9,9 +11,11 @@
   bottom: 0;
   width: 100vw;
 }
+
 .copy {
   margin: 10px;
 }
+
 .fa-heart {
   color: $primeColorAboutMe;
 }

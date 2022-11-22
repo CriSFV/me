@@ -58,14 +58,16 @@ const Pdf = () => {
               <h5 className='right__title'>CONTACTO</h5>
               <ul>
                 <li className='list-item'>
-                  <i className='fad fa-paper-plane'></i> crisfvalverde@gmail.com
+                  <a  href="mailto:crisfvalverde@gmail.com"><i className='fad fa-paper-plane'></i> crisfvalverde@gmail.com</a>
                 </li>
                 <li className='list-item'>
-                  <i className='fab fa-linkedin'></i>{' '}
-                  www.linkedin.com/in/crisfvalverde
+                  <a href="http:\\www.linkedin.com/in/crisfvalverde" target="_blank" rel="noreferrer" >
+                    <i className='fab fa-linkedin'></i> {' '}
+                    www.linkedin.com/in/crisfvalverde
+                  </a>
                 </li>
-                <li className='list-item'>
-                  <i className='fab fa-github'></i> https://github.com/CriSFV
+                <li className='list-item' >
+                  <a href="https://github.com/CriSFV" target="_blank" rel="noreferrer" ><i className='fab fa-github'></i> {' '} https://github.com/CriSFV</a>
                 </li>
               </ul>
             </article>

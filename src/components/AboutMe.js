@@ -13,7 +13,7 @@ const AboutMe = () => {
           Estudié Educación Social hasta que, haciendo las prácticas de la
           carrera, vi que no era lo mío, así que me puse a trabajar en el sector
           de atención al cliente, donde mayoritariamente he estado gestionando
-          equipos en diferentes campañas y a distintos niveles.alkdjfñaoiwejfañwekfañowi
+          equipos en diferentes campañas y a distintos niveles.
         </p>
         <p className='aboutMe__description'>
           Después de unos años allí, me dí cuenta de que necesitaba mejorar mi

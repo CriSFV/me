@@ -6,7 +6,8 @@
   position: fixed;
   width: 100%;
   top: 0;
-  background-image: linear-gradient(#273bec, rgb(58, 58, 52));
+  // background-image: linear-gradient(#e3c5eb, rgb(58, 58, 52));
+  background-color: #ffff;
   //background-color: #5b62a0;
   z-index: 100;
   display: flex;
@@ -25,7 +26,7 @@
   }
 
   &__link {
-    background-image: linear-gradient(#273bec, rgb(58, 58, 52));
+    background-image: linear-gradient(#a9cedf, rgb(58, 58, 52));
     //background-color: $shadowColor;
     //background-color: #5b62a0;
     border-radius: 15px;
@@ -47,7 +48,7 @@
     }
 
     &__home {
-      background-image: linear-gradient(#273bec, rgb(58, 58, 52));
+      background-image: linear-gradient(#a9cedf, rgb(58, 58, 52));
       font-size: 35px;
       color: $primeColorHero;
       border-radius: 15px;
